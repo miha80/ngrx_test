@@ -1,0 +1,13 @@
+.paragraph {
+  font-size: 1.2rem;
+  border: 1px solid blue;
+  color: blue;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+}
+
+.paragraph.paragraph__red-border {
+  border-color: red;
+  color: red;
+}

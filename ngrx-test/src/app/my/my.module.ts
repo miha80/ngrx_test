@@ -10,6 +10,9 @@ import { DummyComponent } from './components/dummy/dummy.component';
   imports: [
     CommonModule,
     StoreModule.forFeature(fromNumberReducer.myFeatureKey, fromNumberReducer.reducers),
+  ],
+  exports: [
+    SmartComponent,
   ]
 })
 export class MyModule { }

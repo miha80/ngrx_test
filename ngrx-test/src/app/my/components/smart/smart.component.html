@@ -1,1 +1,6 @@
-<p>smart works!</p>
+<p>
+  <app-dummy [data]="dummyData$ | async"></app-dummy>
+
+</p>
+<button (click)="startBtnClick()">Start</button><br><br>
+<button (click)="stopBtnClick()">Stop</button>

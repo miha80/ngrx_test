@@ -1,1 +1,3 @@
-<p>dummy works!</p>
+<p [ngClass]="{'paragraph__red-border': (data?.first) < 0}" class="paragraph p-first">{{data?.first}}</p>
+<p [ngClass]="{'paragraph__red-border': (data?.second) < 0}" class="paragraph p-first">{{data?.second}}</p>
+
